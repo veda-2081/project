@@ -14,7 +14,7 @@ Mental health is a growing concern worldwide, and many people struggle with depr
 
 MoodMate and Good Mood Coach can be used by anyone who wants to improve their mental health. The apps are available on both iOS and Android platforms and can be used on smartphones and tablets. Users can connect their social media accounts and text messaging apps to MoodMate to receive personalized mental health support. Good Mood Coach provides daily 3-5 minute training sessions to help people develop good habits that lead to the right choices on a daily basis.
 This is how you create code examples:
-```
+````
 Import the necessary libraries
 import nltk from nltk.sentiment.vader import SentimentIntensityAnalyzer
 
@@ -26,7 +26,7 @@ def analyze_text(self, text):
 
     # Return the sentiment scores
     return scores
-```
+````
 Example usage
 moodmate = MoodMate() text = "I'm feeling really down today." scores = moodmate.analyze_text(text) print(scores)
 
